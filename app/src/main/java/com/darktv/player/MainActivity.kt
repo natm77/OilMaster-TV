@@ -396,7 +396,7 @@ fun TvApp(settings: AppearanceSettings, inPictureInPicture: Boolean, onEnterPict
             Column(Modifier.fillMaxSize().padding(horizontal = if (isTv) 24.dp else 12.dp, vertical = if (isTv) 16.dp else 10.dp)) {
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Image(painterResource(R.drawable.app_icon), contentDescription = "Dark TV", modifier = Modifier.size(42.dp))
+                        Image(painterResource(R.drawable.app_icon), contentDescription = "Oil Master TV", modifier = Modifier.size(42.dp))
                         Spacer(Modifier.width(8.dp))
                         Column { Text("DARK TV", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Black, color = palette.text)
                             Text(tr("تلویزیون زنده، همه‌جا", "LIVE TV, EVERYWHERE"), color = palette.muted, style = MaterialTheme.typography.labelSmall) }

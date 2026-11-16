@@ -102,9 +102,9 @@ internal fun AppTheme(inPictureInPicture: Boolean, onEnterPictureInPicture: () -
             LaunchedEffect(Unit) { delay(1400); opening = false }
             if (opening) {
                 Column(Modifier.fillMaxSize().background(materialPalette.background), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
-                    Image(painterResource(R.drawable.app_icon), contentDescription = "Dark TV", modifier = Modifier.size(140.dp))
+                    Image(painterResource(R.drawable.app_icon), contentDescription = "Oil Master TV", modifier = Modifier.size(140.dp))
                     Spacer(Modifier.height(14.dp))
-                    Text("Dark TV Live", color = materialPalette.text, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                    Text("Oil Master TV Live", color = materialPalette.text, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                 }
             } else TvApp(settings, inPictureInPicture, onEnterPictureInPicture)
         }

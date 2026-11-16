@@ -14,8 +14,8 @@ sealed class UpdateStatus {
 }
 
 object UpdateChecker {
-    const val REPOSITORY_URL = "https://github.com/DarkNamaTv/Tv"
-    private const val API_URL = "https://api.github.com/repos/DarkNamaTv/Tv/releases/latest"
+    const val REPOSITORY_URL = "https://github.com/natm77/OilMaster-TV"
+    private const val API_URL = "https://api.github.com/repos/natm77/OilMaster-TV/releases/latest"
     private val client = OkHttpClient.Builder().connectTimeout(10, TimeUnit.SECONDS)
         .readTimeout(12, TimeUnit.SECONDS).callTimeout(20, TimeUnit.SECONDS).build()
 
