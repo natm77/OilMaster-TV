@@ -739,17 +739,6 @@
     ]
   },
   {
-    "id": "GEMSport.tr",
-    "name": "GEM Sport",
-    "logo": "https://www.gemgroup.tv/assets/images/channels/icon_34.png",
-    "categories": [
-      "sports"
-    ],
-    "urls": [
-      "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8"
-    ]
-  },
-  {
     "id": "GEMTV.tr",
     "name": "GEM TV",
     "logo": "https://gemgroup.tv/assets/images/channels/icon_16.png",
